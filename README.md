@@ -1,11 +1,13 @@
 # Tasklist
 
-This is a simple project to manage tasks using Angular, Spring Boot and MySQL. The code is separated in backend and frontend, to run just follow the commands below. Markdown editor.
+This is a simple project to manage tasks using Angular, Spring Boot and MySQL. The code is separated in backend and frontend, to run just follow the commands below.
 
 ### First of all
 - Clone this repository
 ### Frontend
-  - Access the [frontend](https://github.com/danersc/tasklist/tree/master/frontend) directory and run the commands: npm install & npm start
+  - Access the [frontend](https://github.com/danersc/tasklist/tree/master/frontend) directory.
+  - Install dependencies: npm install
+  - Run server: npm start
 
 ### Backend 
 - A mySQL database is required. If you want to change the database information, edit the [application.properties](https://github.com/danersc/tasklist/blob/master/backend/src/main/resources/application.properties) file.
