@@ -1,0 +1,29 @@
+<div class="modal-header">
+    <h4 class="modal-title">New task</h4>
+</div>
+<div class="modal-body">
+    <form role="form">
+        <div class="form-group">
+
+            <label for="title">
+                Title
+            </label>
+            <input type="text" ng-model="task.title" class="form-control" id="title">
+        </div>
+        <div class="form-group">
+
+            <label for="name">
+                Description
+            </label>
+            <input type="text" ng-model="task.description" class="form-control" id="name">
+        </div>
+        <button class="btn btn-default" ng-click="$dismiss()">
+            Cancel
+        </button>
+        <button class="btn btn-success" ng-click="$close();addTask()">
+            Save
+        </button>
+        <br/>
+        <br/>
+    </form>
+</div>

@@ -1,0 +1,47 @@
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.navbar {
+  margin-top: 20px !important;
+}
+
+.container {
+  margin-top: 20px !important; 
+}
+
+.list-group-item task{
+  margin: 0;
+}
+
+.actioncard{
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.item-action{
+  margin-left: 5px;
+}
+
+.grabbable {
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.grabbable:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+/*
+Copyright 2017 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

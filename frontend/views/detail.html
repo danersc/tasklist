@@ -1,0 +1,13 @@
+<div class="modal-header">
+    <h4 class="modal-title">Task detail</h4>
+</div>
+<div class="modal-body">
+    <p><span class="h5">Title:</span> {{task.title}}</p>
+    <p><span class="h5">Description:</span> {{task.description}}</p>
+    <p><span class="h5">Created at:</span> {{task.createdAt | date:'dd/MM/yyyy HH:mm:ss'}}</p>
+    <p><span class="h5">Updated at:</span> {{task.updatedAt | date:'dd/MM/yyyy HH:mm:ss'}}</p>
+    <p ng-if="task.completed"><span class="h4">Completed:</span> {{task.completedAt | date:'dd/MM/yyyy HH:mm:ss'}}</p>
+</div>
+<div class="modal-footer">
+    <button ng-click="$dismiss()" type="button" class="btn btn-default">Close</button>
+</div>
